@@ -1,7 +1,7 @@
 {
   "name": "auth",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Alt Text](https://thepracticaldev.s3.amazonaws.com/i/po8bf8rxg7lzot1u16pj.png)",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -10,10 +10,19 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "express-validator": "^6.3.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.8.2"
-  }
+    "mongoose": "^5.13.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipakkr/node-auth.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/dipakkr/node-auth/issues"
+  },
+  "homepage": "https://github.com/dipakkr/node-auth#readme"
 }
